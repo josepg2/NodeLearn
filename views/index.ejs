@@ -1,8 +1,24 @@
-<html>
-  <head>
-    <title>Hi All!!!</title>
-  </head>
-  <body>
-    <h1>Hi All!!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+  <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Testing Emmet</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+
+</head>
+<body>
+  <!--
+  Below line is Embedded Jasva Script
+  -->
+  <%= new Date() %>
+  <br/>
+  <hr>
+  <div>
+    <label>Name:</label>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello <span ng-bind="yourName | uppercase"></span>!</h1>
+  </div>
+</body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "nodejstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ejs": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepg2/NodeLearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepg2/NodeLearn/issues"
+  },
+  "homepage": "https://github.com/josepg2/NodeLearn#readme"
+}

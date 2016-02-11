@@ -1,0 +1,21 @@
+{
+  "name": "nodejstest",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "josepg2 <georgejoseph2sep92@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/josepg2/NodeLearn",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
