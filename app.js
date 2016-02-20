@@ -4,7 +4,7 @@ var path = require('path');
 var app = express();
 
 //Configure App
-app.set('port' , (process.env.PORT || 1337))
+app.set('port' , (process.env.PORT || 1337));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
